@@ -1,0 +1,44 @@
+UTC_1939_001	"Create a Change - None of the Above GSR.
+Navigate to the Benefit option section.
+Add a rider and generate a GA report."	"Verify if the ""Added"" keyword is present.
+Verify that no other riders are showing up in the report."	As Expected	Pass	8/2/2013	Offshore		"212223
+"
+UTC_1939_002	"Choose a Quote Id which has riders already available and then create a Change - None of the Above GSR.
+Navigate to the Benefit option section.
+Add a rider and generate a GA report."	"Verify if the ""Added"" keyword is present.
+Verify that no other riders are showing up in the report."	As Expected	Pass	7/26/2013	Offshore		212240
+UTC_1939_003	Add another rider and generate a GA report.	Added riders alone should be displayed in the report.	As Expected	Pass	7/26/2013	Offshore		212240
+UTC_1939_004	Update an added rider and generate a GA report.	"""Added"" keyword only should be present not updated in the report.
+No other riders should show up on the report."	As Expected	Pass	7/26/2013	Offshore		212240
+UTC_1939_005	"Create a Change - None of the Above GSR.
+Navigate to the Benefit option section.
+Without making any changes, generate a GA report."	No riders should show up on the report and if no changes are made to Plan Link section, then the section shouldn't appear as well.	As Expected	Pass	7/26/2013	Offshore		212262
+UTC_1939_006	"Create a Change - None of the Above GSR.
+Navigate to the Benefit option section.
+Delete a rider and generate a GA report."	Verify that the following message pops-up "Can't delete non-admin riders".	As Expected	Pass	7/26/2013	Offshore		185708
+UTC_1939_007	"Create a Change - None of the Above GSR.
+Navigate to the Benefit option section.
+Add a rider. Try to delete a rider and then generate a GA report."	"Verify that the following message pops-up ""Can't delete non-admin riders"".
+Verify if the ""Added"" keyword are present appropriately.
+Verify that no other riders are showing up in the report."	As Expected	Pass	7/26/2013	Offshore		212281
+UTC_1939_008	"Create a Change - None of the Above GSR.
+Navigate to the Benefit option section.
+Try to update any of the riders loaded from IDX."	Riders from IDX source should be read-only. Shouldn't be able to edit them.	As Expected	Pass	7/26/2013	Offshore		185708
+UTC_1939_009	"Create a Change -  Benefit Plan, Riders and/or Rate Change - BE GSR.
+Navigate to the Benefit option section.
+Without making any changes, generate a GA report."	Riders should appear on the Report if there's no change.	As Expected	Pass	7/26/2013	Offshore		185807
+UTC_1939_010	Take the above GSR and add a rider. Generate GA report.	Riders along with the newly added rider should appear on the report.	As Expected	Pass	7/26/2013	Offshore		185807
+UTC_1939_011	Add another rider and generate a GA report.	Riders along with the newly added riders should appear on the report.	As Expected	Pass	7/26/2013	Offshore		185807
+UTC_1939_012	Delete a rider and generate a GA report.	All the riders should appear on the report. Deleted and added keywords for the appropriate riders.	As Expected	Pass	7/26/2013	Offshore		185807
+UTC_1939_013	"Create a Change -  Benefit Plan, Riders and/or Rate Change - Other GSR.
+Navigate to the Benefit option section.
+Without making any changes, generate a GA report."	Riders should appear on the Report if there's no change.	As Expected	Pass	7/26/2013	Offshore		185827
+UTC_1939_014	Take the above GSR and add a rider. Generate GA report.	Riders along with the newly added rider should appear on the report.	As Expected	Pass	7/26/2013	Offshore		185827
+UTC_1939_015	Add another rider and generate a GA report.	Riders along with the newly added riders should appear on the report.	As Expected	Pass	7/26/2013	Offshore		185827
+UTC_1939_016	Delete a rider and generate a GA report.	All the riders should appear on the report. Deleted and added keywords for the appropriate riders.	As Expected	Pass	7/26/2013	Offshore		185827
+UTC_1939_017	"Create a Change -  CDHP CHNG ONLY GSR.
+Navigate to the Benefit option section.
+Verify if the riders exist. If yes, Generate a GA report. If no. create another GSR with riders with a different quote id."	Riders on the screen will be read-only. Riders should appear on the Report.	As Expected	Pass	7/26/2013	Offshore		185847
+UTC_1939_018	"Create a Change -  Future CDHP GSR.
+Navigate to the Benefit option section.
+Verify if the riders exist. If yes, Generate a GA report. If no. create another GSR with riders with a different quote id."	Riders on the screen will be read-only. Riders should appear on the Report.	As Expected	Pass	7/26/2013	Offshore		185867
